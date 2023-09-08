@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* venstre navbar */
+
+.logo{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 20%;
+}
+
+.logo-img{
+    margin-right: 20px;
+    width: 40px;
+    font-weight: bolder;
+}
+
+.nav{
+    width: 20%;
+    padding-left: 100px;
+    border-right: 0.5px solid rgb(180, 180, 180);
+    position: fixed;
+    background: white;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center center;
+    margin-bottom: 10px;
+}
+
+.nav-bar img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.pip-btn{
+    background-color: #26a7de;
+    width: 80%;
+    border-radius: 100px;
+    font-size: 16px;
+    border: none;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user{
+    margin-top: 5rem;
+}
+
+.pp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+
+.user a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.user-add{
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+/* midten med posts */
+
+.middle-top{
+    width: 45%;
+    overflow: hidden;
+    margin-left: 24.5rem;
+    padding: 20px;
+    border-bottom: 0.5px solid rgb(180, 180, 180) ;
+    position: fixed;
+    background: white;
+    padding-top: 40px;
+}
+
+.top-pip{
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    border-bottom: 0.5px solid rgb(180, 180, 180);
+    padding: 40px 40px 60px 40px;
+}
+
+.top-text{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.top-pip textarea{
+    font-size: 16px;
+    width: 65%;
+}
+
+#post-text{
+    border: none;
+}
+
+.post-add-on{
+    float: right;
+}
+
+.post{
+    background-color: #26a7de;
+    width: 100px;
+    border-radius: 100px;
+    font-size: 14px;
+    border: none;
+    height: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.post-section{
+    width: 45%;
+    overflow: hidden;
+    margin-left: 24rem;
+}
+
+/* post template */
+
+.posts{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.posts-text{
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.post-text h4, p{
+    margin-bottom: 10px;
+}
+
+.post-pic .pp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
