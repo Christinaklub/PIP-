@@ -1,0 +1,120 @@
+/* Subcribe stylesheet */
+
+.input-container {
+    position: relative;
+}
+
+.search-input {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 40px; 
+    width: 364px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    color: #999; 
+    font-size: 18px; 
+    position: absolute;
+    left: 10px; 
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.subcribe-box {
+    height: 175px;
+    width: 400px;
+    background-color:rgb(236, 234, 234);
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subrcribe-button {
+    width: 110px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+}
+
+
+.follow-box {
+    width: 400px;
+    background-color: rgb(236, 234, 234);
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 10px;
+
+}
+
+
+img{
+    border-radius: 50%;
+    width: 70px;
+    display: flex;
+    padding: 7px;
+    margin-top: 4px;
+
+}
+
+.button-follow {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 75px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+}
+
+.users h4, p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.trends-box {
+    background-color: rgb(236, 234, 234);
+    width: 390px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trends h4, p {
+    margin: 0;
+}
+
+.trends {
+    margin-top: 20px;
+}
+
+.fa-ellipsis-h {
+    margin-left: 315px;
+    display: flex;
+    align-items: baseline;
+}
+
+/* end of subcribe stylesheets */
+
