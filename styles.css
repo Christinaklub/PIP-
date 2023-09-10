@@ -175,8 +175,9 @@ main{
 /* Subcribe stylesheet */
 
 .right-side{
-    position:fixed;
+    position: fixed;
     right: 0px;
+    overflow:visible
 }
 
 .input-container {
