@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="img/twitter-favicon.svg">
+    <script src="https://kit.fontawesome.com/4c583b27ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,7 +29,38 @@
                 <a href="#"><img src="img/user.svg" alt="home">Profil</a>
                 <a href="#"><img src="img/more-horizontal.svg" alt="home">Mere</a>
             </ul>
-            <button class="pip-btn">Pip</button>
+                <!-- Start pip window  -->
+
+    <button class="pip-btn" id="openBtn">Pip</button>
+    <div id="pipModal" class="modal">
+        <div class="pip-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="profile-picture">
+                    <img src="img/chris.jpeg">
+                </div>
+                <div class="area-text">
+                    <textarea class="pip-text" placeholder="Hvad sker der?!"></textarea>
+                </div>
+                <div class="who">
+                    <i class="fa-solid fa-earth-europe"></i>
+                    <span>Alle kan svare</span>
+                </div>
+                <div class="modal-bottom">
+                    <ul class="icons">
+                        <li><i class="fa-regular fa-image"></i></li>
+                        <li><i class="fa-regular fa-face-smile"></i></li>
+                        <li><i class="fas fa-map-marker-alt"></i></li>
+                    </ul>
+                    <div class="post-content">
+                        <button>Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
             <div class="user">
                 <a href="#">
@@ -151,5 +183,11 @@
 
 
     </main>
+
+
+
+    <!-- Slut pip window -->
+
+    <script src="script.js"></script>
 </body>
 </html>
