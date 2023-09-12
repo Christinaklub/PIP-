@@ -303,4 +303,149 @@ a {
 
 /* end of subcribe stylesheets */
 
+/* start pip window */
 
+
+#pipModal {
+    display: none;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+ 
+}
+
+.pip-content {
+    background: white;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 5px solid #26a7de;
+    background-color: rgba (0, 0, 0, 0.5);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.profile-picture img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.area-text textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 15px; 
+    margin-top: 5px;
+}
+.who{
+    color: #26a7de;
+    margin: 15px 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.who i{
+    font-size: 15px;
+}
+
+.who span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start; /* Align icons to the left */
+    color: #26a7de;
+}
+
+.icons li {
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pip-button {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+    margin-top: auto;
+    justify-content: flex-end; /* Align button to the right */
+}
+
+button {
+    background-color: #26a7de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-bottom{
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-bottom .icons{
+    display: inline-flex;
+}
+
+.icons li{
+    list-style: none;
+    color: #26a7de;
+    font-size: 20px;
+    margin: 0 2px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.modal-bottom button{
+    padding: 9px 15px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #26a7de;
+    color: #fff;
+    cursor: pointer;
+}
+/* slut pip window */
