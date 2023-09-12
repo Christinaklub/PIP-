@@ -5,6 +5,10 @@ export function createPost(x){
     // Cloner template
     const clone = document.importNode(template.content, true);
 
+
+    // fyll ind template - alle elementer som ligger i template?  
+
+
     // Sætter den udfyldte kopi ind på hjemmesiden
     template.appendChild(clone);
 }
