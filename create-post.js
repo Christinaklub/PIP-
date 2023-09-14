@@ -1,9 +1,4 @@
 export function createPost(x){
-
-    const allPosts = ["posts"]
-
-    allPosts.forEach((x) => {
-        console.log(x.id);
     
         // Hiver fatt i skabelonen fra HTML template
         const template = document.getElementById("posts");
@@ -18,7 +13,7 @@ export function createPost(x){
     
         const postText = clone.getElementByClass("post-text");
         postText.id = "post-text" + x.id; 
-        })
+
 
     // Sætter den udfyldte kopi ind på hjemmesiden
     template.appendChild(clone);
