@@ -40,13 +40,13 @@ const form = document.getElementById("pipModal")
 form.addEventListener("submit", async (event) =>  {
   console.log ("hello from pip form");
   event.preventDefault();
-  const data =  new FormData(form);
+  const data = new FormData(form);
 
   const username = data.get("username");
-  console.log ("username");
+  console.log ("username:", username);
 
   const text = data.get("text");
-  console.log ("text");
+  console.log ("text:", text);
 
   const post = {
     username: username,
