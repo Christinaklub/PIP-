@@ -1,3 +1,6 @@
+import { createPost } from "./create-post.js";
+import { postPips,fetchPips } from "./pip-api.js";
+
 // Hent variablerne
 const openBtn = document.getElementById("openBtn");
 const closeBtn = document.querySelector(".close");
@@ -55,10 +58,10 @@ form.addEventListener("postBtn", async (event) =>  {
 });
 
 async function load(){
-    const body = await form ();
+    const body = await fetchPips ();
   
     body.forEach((x) => {
-      form (x);
+      createPost (x);
   });
   }
   
