@@ -53,7 +53,7 @@ form.addEventListener("submit", async (event) =>  {
     text: text,
     }
 
-    const x = postPips(post);
+    const x = fetchPips(post);
 });
 
 async function load(){
