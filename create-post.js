@@ -14,6 +14,14 @@ export function createPost(x){
         const postText = clone.getElementById("post-text-template");
         postText.id = "post-text" + x.id; 
 
+        const newUsername = clone.getElementById("username-text");
+        newUsername.id = "username-text" + x.id;
+
+        const newText = clone.getElementById("pip-message");
+        newText.id = "pip-message" + x.id;
+
+
+
 
     // Sætter den udfyldte kopi ind på hjemmesiden
     document.getElementById("pip-container").appendChild(clone);
