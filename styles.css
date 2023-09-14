@@ -465,4 +465,16 @@ button {
     cursor: pointer;
 }
 
+#username{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 15px; 
+    margin-top: 5px;
+}
+
 /* slut pip window */
+
