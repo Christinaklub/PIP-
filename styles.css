@@ -305,6 +305,9 @@ a {
 
 /* start pip window */
 
+#charCount{
+    color: lightgrey;
+}
 
 #pipModal {
     display: none;
@@ -374,9 +377,14 @@ a {
 }
 
 .who span{
+    color: #26a7de;
     font-size: 15px;
     font-weight: 600;
     margin-left: 7px;
+}
+
+.fa-solid{
+    color: #26a7de;
 }
 
 .icons {
@@ -392,6 +400,14 @@ a {
     margin-right: 10px;
     font-size: 24px;
     cursor: pointer;
+}
+
+.fas {
+    color: #26a7de;
+}
+
+.fa-regular{
+    color: #26a7de;
 }
 
 .pip-button {
@@ -448,4 +464,5 @@ button {
     color: #fff;
     cursor: pointer;
 }
+
 /* slut pip window */
