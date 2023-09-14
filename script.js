@@ -35,12 +35,18 @@ form.addEventListener("postBtn", async (event) =>  {
   event.preventDefault();
   const data =  new FormData(form);
 
-  const username = data.get("usernma");
+  const username = data.get("username");
   console.log ("username");
 
   const text = data.get("pip-text");
   console.log ("text");
 
+  const post = {
+    username: username,
+    text: text,
+    }
+
+    const x = postPost(post);
 });
 
 async function load(){
