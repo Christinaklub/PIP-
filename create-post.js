@@ -8,13 +8,13 @@ export function createPost(x){
 
     
         //cloner nye elementer i template
-        const postImg = clone.getElementByClass("post-pic");
+        const postImg = clone.getElementById("post-pic");
         postImg.id = "post-pic" + x.id; 
     
-        const postText = clone.getElementByClass("post-text");
+        const postText = clone.getElementById("post-text-template");
         postText.id = "post-text" + x.id; 
 
 
     // Sætter den udfyldte kopi ind på hjemmesiden
-    template.appendChild(clone);
+    document.getElementById("pip-container").appendChild(clone);
 }
