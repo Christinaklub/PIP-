@@ -46,7 +46,7 @@ form.addEventListener("submit", async (event) =>  {
   const username = data.get("username");
   console.log ("username");
 
-  const text = data.get("pip-text");
+  const text = data.get("text");
   console.log ("text");
 
   const post = {
