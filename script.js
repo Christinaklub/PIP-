@@ -26,6 +26,8 @@ textarea.addEventListener("input", () => {
     charCount.textContent = remainingCharacters;
 });
 
+// Form/ modal 
+
 const form = document.getElementById("pipModal")
 
 form.addEventListener("postBtn", async (event) =>  {
@@ -33,10 +35,20 @@ form.addEventListener("postBtn", async (event) =>  {
   event.preventDefault();
   const data =  new FormData(form);
 
-  const name = data.get("name");
-  console.log ("name");
+  const username = data.get("usernma");
+  console.log ("username");
 
-  const text = data.get("text");
+  const text = data.get("pip-text");
   console.log ("text");
 
 });
+
+async function load(){
+    const body = await form ();
+  
+    body.forEach((x) => {
+      form (x);
+  });
+  }
+  
+  load();
