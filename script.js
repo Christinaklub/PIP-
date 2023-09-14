@@ -12,7 +12,7 @@ openBtn.addEventListener("click", () => {
 });
 
 
-// Add an event listener to the close button
+// tilføj en event listener til luk knappen 
 closeBtn.addEventListener("click", () => {
     pipModal.style.display = "none";
 });
@@ -26,7 +26,12 @@ textarea.addEventListener("input", () => {
     
     const remainingCharacters = 255 - characterCount;
     
+    if (remainingCharacters < 0){
+        remainingCharacters = 0;
+    }
+
     charCount.textContent = remainingCharacters;
+
 });
 
 // Form/ modal 
