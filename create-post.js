@@ -21,8 +21,6 @@ export function createPost(x){
         newText.id = "pip-message" + x.id;
 
 
-
-
     // Sætter den udfyldte kopi ind på hjemmesiden
     document.getElementById("pip-container").appendChild(clone);
 }

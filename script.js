@@ -33,7 +33,7 @@ textarea.addEventListener("input", () => {
 
 });
 
-// Form / modal 
+// Form / modal så den er connected til databasen 
 
 const form = document.getElementById("pipModal")
 
