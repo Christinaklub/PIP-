@@ -32,8 +32,8 @@
         }
         
         $input = (array) json_decode(file_get_contents('php://input'), true);
-        echo $input['text'];
-        echo $input['username'];
+        //echo $input['text'];
+        //echo $input['username'];
 
     } catch (PDOException $e) {
         echo "connection failed: " . $e->getMessage();

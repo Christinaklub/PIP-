@@ -38,7 +38,7 @@ textarea.addEventListener("input", () => {
 
 const form = document.getElementById("pipModal")
 
-form.addEventListener("postBtn", async (event) =>  {
+form.addEventListener("submit", async (event) =>  {
   console.log ("hello from pip form");
   event.preventDefault();
   const data =  new FormData(form);
@@ -54,7 +54,7 @@ form.addEventListener("postBtn", async (event) =>  {
     text: text,
     }
 
-    const x = postPost(post);
+    const x = postPips(post);
 });
 
 async function load(){

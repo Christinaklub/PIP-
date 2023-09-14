@@ -1,8 +1,7 @@
-export async function form (){
+const URL = "http://127.0.0.1:8000/pips"
+
+export async function fetchPips (){
     const response = await fetch(URL,{
-     headers: {
-         apikey: apikey,
-     },
     });
     const body = await response.json();
     console.log(body);
@@ -10,13 +9,9 @@ export async function form (){
     return body;
  }
  
-  export async function postBtn(data) {
+  export async function postPips(data) {
  const response = await fetch(URL,{
    method: "POST",
-   headers: {
-     apikey: apikey,
-     "Content-Type": "application/json", 
-   },
    body: JSON.stringify(data),
  });
  console.log (response);
