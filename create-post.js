@@ -16,9 +16,11 @@ export function createPost(x){
 
         const newUsername = clone.getElementById("username-text");
         newUsername.id = "username-text" + x.id;
+        newUsername.innerText = x.username
 
         const newText = clone.getElementById("pip-message");
         newText.id = "pip-message" + x.id;
+        newText.innerText = x.text 
 
 
     // Sætter den udfyldte kopi ind på hjemmesiden
