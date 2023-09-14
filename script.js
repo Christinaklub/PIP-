@@ -34,7 +34,7 @@ textarea.addEventListener("input", () => {
 
 });
 
-// Form/ modal 
+// Form / modal 
 
 const form = document.getElementById("pipModal")
 
