@@ -11,7 +11,6 @@ openBtn.addEventListener("click", () => {
     pipModal.style.display = "block";
 });
 
-
 // tilføj en event listener til luk knappen 
 closeBtn.addEventListener("click", () => {
     pipModal.style.display = "none";
