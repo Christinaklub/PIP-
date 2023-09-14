@@ -8,6 +8,7 @@ openBtn.addEventListener("click", () => {
     pipModal.style.display = "block";
 });
 
+
 // Add an event listener to the close button
 closeBtn.addEventListener("click", () => {
     pipModal.style.display = "none";
@@ -23,4 +24,19 @@ textarea.addEventListener("input", () => {
     const remainingCharacters = 255 - characterCount;
     
     charCount.textContent = remainingCharacters;
+});
+
+const form = document.getElementById("pipModal")
+
+form.addEventListener("postBtn", async (event) =>  {
+  console.log ("hello from pip form");
+  event.preventDefault();
+  const data =  new FormData(form);
+
+  const name = data.get("name");
+  console.log ("name");
+
+  const text = data.get("text");
+  console.log ("text");
+
 });
